@@ -1,14 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import AddProducts from './components/AddProducts';
-import Products from './components/Products';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Users from './component/Users';
+import Products from './component/Products';
 
 function App() {
   return (
     <div className="App">
-      <Products/>
-      <AddProducts/>
-  
+      {/* <Users /> */}
+
+      <Products />
+      
     </div>
   );
 }
